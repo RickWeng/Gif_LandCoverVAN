@@ -11,5 +11,5 @@ Land cover classes data were created by my labmate Jiali (Emily) Jin.
 * Plotting and making Gifs in R 
 
 # Gifs
-[MetroVancouver](https://github.com/RickWeng/Gif_LandCoverVAN/blob/master/Landcover_metroVan.gif)
+![MetroVancouver](https://github.com/RickWeng/Gif_LandCoverVAN/blob/master/Landcover_metroVan.gif)
 
