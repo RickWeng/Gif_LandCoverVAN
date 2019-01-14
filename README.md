@@ -12,4 +12,5 @@ Land cover classes data were created by my labmate Jiali (Emily) Jin.
 
 # Gifs
 ![MetroVancouver](https://github.com/RickWeng/Gif_LandCoverVAN/blob/master/Landcover_metroVan.gif)
+![CityVancouver](https://github.com/RickWeng/Gif_LandCoverVAN/blob/master/Landcover_cityVan.gif)
 
