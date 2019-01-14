@@ -7,7 +7,7 @@ Land cover classes data were created by my labmate Jiali (Emily) Jin.
 # Steps
 
 * Reclassifying land cover classes of Metro Vancouver in Python
-* Extracting city of Vancouver in Python
+* Extracting City of Vancouver in Python
 * Plotting and making Gifs in R 
 
 # Gifs
