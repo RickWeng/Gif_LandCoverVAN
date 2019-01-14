@@ -1,12 +1,12 @@
-# Animated Gif maps (Metro Vancouver) in R
-# Author: Ricky Weng
-# Description: This script helps to automatically plot time-series raster maps and create animated maps in R
+### Animated Gif maps (Metro Vancouver) in R
+### Author: Ricky Weng
+### Description: This script helps to automatically plot time-series raster maps and create animated maps in R
 
 # INSTALL IMAGEMAGICK PROGRAM FIRST
 # Packages
 library(raster) # Plot raster map
 library(rgdal) # Plot raster map
-library(purrr)
+library(purrr) # Functions
 library(magick) # Make Gif
 
 # Set workspace
@@ -16,7 +16,7 @@ myfile = list.files(pattern="newVanrendvi_")
 # Check files
 myfile
 # Set colors for each land cover class
-my_col=c("#BA1414","#FFF0A3","#379123")
+my_col=c("#FC8D62","#FFFFB3","#66C2A5")
 
 # For loop to plot all maps
 for(rawfile in myfile){
@@ -40,7 +40,7 @@ list.files(pattern=".png") %>%
   map(image_read) %>%
   image_join() %>%
   #Set frames per second to 2
-  image_animate(fps=2) %>%
+  image_animate(fps=4) %>%
   image_write("Landcover_cityVan.gif")
 
 
