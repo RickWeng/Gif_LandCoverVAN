@@ -1,5 +1,5 @@
 # Land Cover Change, Vancouver, 1985-2012
-Scripts of raw data processing are not provided here. Only the script of reclassification, extraction, and visualization are provided.
+Scripts of raw data processing are not provided here. Only the scripts of reclassification, extraction, and visualization are provided.
 
 ## Goal 
 Animation showing land cover change in Vancouver, 1985-2012 
